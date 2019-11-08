@@ -3,11 +3,8 @@ const app = express();
 
 //list of users
 app.get('/', function(req, res){
-    res.json({
-        success: true,
-        message: 'Hello World!'
-    })
+    console.log('Hello World!');
 });
 
 //listen to port 8000
-app.listen(3000,function(){ console.log("server is running") })
+app.listen(3000,function(){ console.log("Hello World!") })
